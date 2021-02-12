@@ -1,0 +1,582 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.nav{  
+    position: relative;  
+}
+
+.navbar-brand{
+    margin: auto;
+}
+
+.hi{
+    font-family: 'Dancing Script', cursive;
+    position: absolute;
+    width: 127px;
+    height: 48px;
+    left: 10%;
+    top: 25%;
+}
+
+#name{
+    position: relative;
+    width: 355px;
+    height: 174px;
+    left: 15%;
+    top: 28%;
+
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 87px;
+
+    color: #000000;
+}
+
+#pink{
+    position: absolute;
+    width: 30vw;
+    height: 40vh;
+    position: absolute; 
+    top:0;
+    right:0;
+    z-index: -1;
+    background-color: #FF0066;
+    transform: rotate(180deg);
+}
+
+#pink img{
+    height:100%;
+    width:100%;
+}
+
+#black{
+    position: absolute;
+    width: 40vw;
+    height: 80vh;
+    position: absolute;
+    left: 0;
+    background-color: 1F1E1D;
+    top: 80%;
+    z-index: -1;
+
+}
+
+#black img{
+    height:100%;
+    width:100%;
+}
+
+.me1{
+    position: absolute;
+    width: 50vw;
+    height: 70vh;
+    left: 30%;
+    top: 20%;
+}
+
+.me1 img{
+    width:100%;
+    height: 100%;
+}
+
+
+
+a#article {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover#article{
+    text-decoration: none;
+    color: #FF0066;
+}
+
+#date{
+    font-family: 'PT Serif', serif;
+    font-size: 16px;
+    color:#b8b6b6;
+    margin-bottom: 5%;
+}
+
+.transparentbox{
+    margin: 10% 8% 5% 10%;
+    left: 20%;
+    padding: 4%;
+    background-color: rgba(232, 221, 221, 0.5);
+    box-shadow: 0 4px 8px 0 rgba(103, 103, 103, 0.1), 0 6px 20px 0 rgba(171, 171, 171, 0.1);
+}
+
+#sidebar{
+    background-color: #FF0066 ;
+    width:3%;
+    height: 150%;
+    left:0;
+    position:fixed;
+}
+
+.row{
+    padding: 5% 10% 0 5%;
+    
+}
+
+.col-10{
+    padding-right: 5%;
+}
+
+/* Style the tab */
+.tab {
+    overflow: hidden;   
+}
+  
+  /* Style the buttons inside the tab */
+.tab button {
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: white;
+    transition: 0.3s;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    text-decoration: none;
+    color:#000000;
+    padding: 8px;
+    margin-right: 8px;
+}
+  
+  /* Change background color of buttons on hover */
+.tab button:hover {
+    
+    border: 2px solid #FF0066;
+    box-sizing: border-box;
+    color: #FF0066;
+    padding: 8px 12px 8px 12px;
+}
+  
+  /* Create an active/current tablink class */
+.tab button.active {
+    border: 2px solid #FF0066;
+    box-sizing: border-box;
+    color: #FF0066;
+    padding: 8px 12px 8px 12px;
+}
+  
+  /* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 2% 2% 2% 0%;  
+    border-top: none;
+}
+#grid{
+    display: inline-flex;
+    margin-bottom: 10%;
+    
+}
+
+
+.cs-img{
+    width: 60%;
+    height: 300px;
+    box-shadow: 0px 8px 15px rgba(46, 46, 46, 0.1);
+}
+
+.cs-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.cs-content{
+    width: 60%;
+    height: 300px;
+    padding: 2% 5% 5% 5% ;
+}
+
+#heading{
+    font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+#para{
+    margin-bottom: 10%;
+}
+
+#outlined{
+    border: solid black 1px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 8px 12px 8px 12px;
+    background-color: #ffffff;
+}
+
+#outlined:hover{
+    border: none;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 8px 12px 8px 12px;
+    background-color: #FF0066;
+    color: #ffffff;
+}
+
+.sp-img{
+    width: 100%;
+    height: 400px;
+    box-shadow: 0px 8px 15px rgba(46, 46, 46, 0.1);
+    
+}
+
+.sp-img img{
+    width:100%;
+    height: 100%;
+}
+
+.sp-img img:hover{
+    background-color: black;
+    opacity: 0.7;
+}
+
+.sp-content{
+    font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    padding: 2% 2% 0 0;
+}
+
+.col-2{
+    padding: 10px 0px 0 80px;
+}
+
+#pages{
+    border:none;
+    background-color: #ffffff;
+    margin: 8%;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+
+}
+
+#pages:hover{
+    border-bottom: solid #FF0066;
+    color: #FF0066;
+    background-color: #ffffff;
+}
+
+.active-link{
+    border-bottom: solid #FF0066;
+    color: #FF0066;
+    background-color: #ffffff;
+}
+
+
+.insta-img{
+    width: 60%;
+    height: 400px;
+}
+
+.insta-img img{
+    width: 100%;
+    height:100%;
+}
+
+.insta-content{
+    width: 60%;
+    height: 0%;
+    padding: 10% 5% 10% 5% ;
+
+}
+
+#bottom-pink{
+    background-color: #FF0066;
+    width:50%;
+    height: 400px;
+    position: fixed;
+    left:70%;
+    z-index: -1;
+
+}
+
+#insta-logo{
+    width:36px;
+    height:36px;
+}
+
+#insta-logo img{
+    width:100%;
+    height:100%;
+}
+
+#insta-handle{
+    margin-left: 10px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+#insta-head{
+    display:inline-flex;
+}
+
+#insta-para{
+    padding: 10% 0 5% 0;
+}
+
+#full-button{
+    border: none;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    padding: 8px 16px 8px 16px;
+    background-color: #000000;
+    color: #ffffff;;
+}
+
+#full-button:hover{
+    border: none;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    padding: 8px 16px 8px 16px;
+    background-color: #FF0066;
+    color: #ffffff;
+}
+
+/*#aboutme{
+    position: absolute;
+    width: 153px;
+    height: 44px;
+    left: 744px;
+    top: 842px;
+
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 44px;
+    
+
+
+    color: #000000;
+}
+
+.download{
+    position: relative;
+    width: 180px;
+    height: 48px;
+    left: 744px;
+    top: 1200px;
+    background-color: #FF0066; 
+    border: none;
+    color: white;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.download:hover{
+    position: relative;
+    width: 180px;
+    height: 48px;
+    left: 744px;
+    top: 1190px;
+    transition: ease-in-out;
+    background-color: #FF0066; 
+    border: none;
+    color: white;
+    box-shadow: 0px 8px 15px rgba(254, 34, 122, .2);
+
+
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+*/
+
+#aboutcontent{
+    position: absolute;
+    width: 619px;
+    height: 135px;
+    left: 744px;
+    top: 922px;
+
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #413D3D;
+}
+
+/*#mywork:link{
+    position: relative;
+    width: 83px;
+    height: 32px;
+    left: 750px;
+    top: 1097px;
+
+
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    text-decoration: none;
+    color:#000000;
+    padding: 6px;
+
+}
+
+#mywork:hover{
+    position: absolute;
+    width: 84px;
+    height: 48px;
+    left: 750px;
+    top: 1097px;
+    position: absolute;
+    width: 96px;
+    height: 39px;
+    left: 744px;
+    top: 1091px;
+
+
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    text-decoration: none;
+    color:#FF0066;
+    border: 2px solid #FF0066;
+
+}
+
+#articles:link{
+    position: absolute;
+    width: 82px;
+    height: 39px;
+    left: 871px;
+    top: 1091px;
+    font-size: 20px;
+
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+
+    text-decoration: none;
+    color:#000000;
+    padding: 6px;
+}
+
+#articles:hover{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 6px;
+
+    position: absolute;
+    width: 82px;
+    height: 39px;
+    left: 871px;
+    top: 1091px;
+
+    border: 2px solid #FF0066;
+    box-sizing: border-box;
+    color: #FF0066;
+}
+
+#instagram:link{
+    position: absolute;
+    width: 110px;
+    height: 39px;
+    left: 985px;
+    top: 1091px;
+
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    text-decoration: none;
+
+    color: #000000;
+    padding:6px;
+
+}
+
+#instagram:hover{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 6px;
+
+    position: absolute;
+    width: 110px;
+    height: 39px;
+    left: 985px;
+    top: 1091px;
+
+    border: 2px solid #FF0066;
+    box-sizing: border-box;
+    color:#FF0066;
+}
+
+.download{
+    position: absolute;
+    width: 180px;
+    height: 48px;
+    left: 744px;
+    top: 1200px;
+    background-color: black; 
+    border: none;
+    color: white;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+.download:hover{
+    position: absolute;
+    width: 180px;
+    height: 48px;
+    left: 744px;
+    top: 1190px;
+    transition: ease-in-out;
+    background-color: #FF0066; 
+    border: none;
+    color: white;
+    box-shadow: 0px 8px 15px rgba(254, 34, 122, .2);
+
+
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
